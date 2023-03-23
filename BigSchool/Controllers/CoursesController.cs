@@ -35,8 +35,7 @@ namespace BigSchool.Controllers
             };
             return View(viewModel);
         }
-        //
-        // POST: /Courses/Create
+ 
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]

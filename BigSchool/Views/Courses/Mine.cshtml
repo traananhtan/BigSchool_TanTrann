@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<BigSchool.Models.Course>
-
+@{ 
+    ViewBag.Title = "Mine";
+}
 <div class="row">
     <ul class="course">
         @foreach (var course in Model)

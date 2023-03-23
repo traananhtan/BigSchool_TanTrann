@@ -44,7 +44,7 @@ input[type="checkbox"].input-validation-error {
 /* Override the default bootstrap Nar bar by */
 
 .navbar-inverse {
-    background-color: #0026ff;
+    background-color: #0effd9;
     border-color: #fbf6f6;
 }
 
